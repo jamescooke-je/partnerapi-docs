@@ -1,0 +1,16 @@
+type: array
+items:
+  type: object
+  properties:
+    Amount:
+      type: number
+      format: double
+    IsRecommended:
+      type: boolean
+example:
+  - Amount: 2
+    IsRecommended: false
+  - Amount: 3
+    IsRecommended: true
+  - Amount: 5
+    IsRecommended: false

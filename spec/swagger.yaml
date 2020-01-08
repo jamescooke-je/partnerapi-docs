@@ -176,10 +176,18 @@ tags:
     x-displayName: Order Delivery Webhooks
   - name: delivery-pools-api
     x-displayName: Delivery Pools API
+  - name: order-queries
+    x-displayName: Order Queries API
+  - name: order-query-webhooks
+    x-displayName: Order Query Webhooks
   - name: search-api
     x-displayName: Search API
   - name: logistics-pos-restaurants
     x-displayName: Restaurant API
+  - name: compensation
+    x-displayName: Compensation API
+  - name: compensation-webhooks
+    x-displayName: Compensation Webhooks
 x-tagGroups:
   - name: Whitelabel
     tags:
@@ -203,3 +211,11 @@ x-tagGroups:
   - name: Logistics POS
     tags:
       - logistics-pos-restaurants
+  - name: Order Queries
+    tags:
+      - order-queries
+      - order-query-webhooks
+  - name: Compensation
+    tags:
+      - compensation
+      - compensation-webhooks

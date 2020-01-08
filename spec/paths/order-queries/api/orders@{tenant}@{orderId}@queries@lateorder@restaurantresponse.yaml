@@ -1,7 +1,7 @@
 post:
   tags:
   - order-queries
-  summary: "Response to Late Order Update Request"
+  summary: Respond to late order notification
   description: If a customer has requested an update on the status of a late order, a response can be given by calling this endpoint.
   parameters:
     - name: tenant

@@ -1,8 +1,8 @@
 post:
   tags:
-  - order-queries
-  summary: Update late order compensation request with Restaurant response 
-  description: If a customer has requested compensation for a late order, a restaurant response is given by calling this endpoint.
+  - compensation
+  summary: Resolve compensation request 
+  description: If a customer has requested compensation, a restaurant response is given by calling this endpoint.
   parameters:
     - name: tenant
       in: path
@@ -25,11 +25,11 @@ post:
   requestBody:
     required: true
     description: >-
-      The restaurant response to a late order compensation request. Indicates either a monetary amount (when the compensation is accepted); or a rejection reason (when compensation is rejected).
+      The restaurant response to a compensation request. Indicates either a monetary amount (when the compensation is accepted); or a rejection reason (when compensation is rejected).
     content:
       application/json:
         schema:
-          $ref: "#/definitions/late-order-compensation-restaurant-resolution"
+          $ref: "#/definitions/compensation-resolution"
   responses:
     '202':
       description: Accepted

@@ -3,8 +3,8 @@ properties:
   lateOrderStatus:
     type: string
     enum:
-      - Late
-      - Delayed
+      - Preparing
+      - OnItsWay
       - Delivered
     description: The updated later order query status
   additionalDeliveryTimeToAddMinutes:
