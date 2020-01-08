@@ -1,10 +1,10 @@
 type: object
 properties:
-  RestaurantId:
+  restaurantId:
     type: number
-  OrderId:
+  orderId:
     type: string
-  Tenant:
+  tenant:
     type: string
 example:
   RestaurantId: '110230'

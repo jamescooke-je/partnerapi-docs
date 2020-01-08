@@ -2,7 +2,7 @@ post:
   tags:
   - order-query-webhooks
   summary: Notification of late order
-  description: "This webhook will be invoked when a late order query has been raised and a restaurant response is required."
+  description: "A late order query has been raised and a restaurant response is required."
   requestBody:
     required: true
     content:

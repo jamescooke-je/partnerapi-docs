@@ -2,7 +2,7 @@ post:
   tags:
   - compensation-webhooks
   summary: Notification of late order
-  description: "This webhook will be invoked when a late order compensation query has been raised and a restaurant response is required."
+  description: "A compensation request has been raised and a restaurant response is required."
   requestBody:
     required: true
     content:
