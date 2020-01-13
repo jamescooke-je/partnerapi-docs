@@ -1,0 +1,21 @@
+type: object
+properties:
+  RestaurantId:
+    type: number
+  OrderId:
+    type: string
+  Tenant:
+    type: string
+  CompensationOptions:
+    $ref: '#/definitions/late-order-query-compensation-options'
+example:
+  RestaurantId: '110230'
+  OrderId: 'wiej234idf09i29jijgf4'
+  Tenant: 'uk'
+  CompensationOptions:
+  - Amount: 2
+    IsRecommended: false
+  - Amount: 3
+    IsRecommended: true
+  - Amount: 4
+    IsRecommended: false

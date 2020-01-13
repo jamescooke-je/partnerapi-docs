@@ -1,0 +1,12 @@
+type: object
+properties:
+  restaurantId:
+    type: number
+  orderId:
+    type: string
+  tenant:
+    type: string
+example:
+  RestaurantId: '110230'
+  OrderId: 'wiej234idf09i29jijgf4'
+  Tenant: 'uk' 
