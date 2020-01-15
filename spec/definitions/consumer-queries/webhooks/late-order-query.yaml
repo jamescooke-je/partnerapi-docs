@@ -2,10 +2,13 @@ type: object
 properties:
   restaurantId:
     type: number
+    description: Just Eat restaurant identifier
   orderId:
     type: string
+    description: Just Eat order identifier
   tenant:
     type: string
+    description: Tenant (Country) of order restaurant.
 example:
   RestaurantId: '110230'
   OrderId: 'wiej234idf09i29jijgf4'

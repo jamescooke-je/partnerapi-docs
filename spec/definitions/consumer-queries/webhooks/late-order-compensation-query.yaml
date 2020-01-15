@@ -1,21 +1,24 @@
 type: object
 properties:
-  RestaurantId:
+  restaurantId:
     type: number
-  OrderId:
+    description: Just Eat restaurant identifier
+  orderId:
     type: string
-  Tenant:
+    description: Just Eat order identifier
+  tenant:
     type: string
-  CompensationOptions:
+    description: Tenant (Country) of order restaurant.
+  compensationOptions:
     $ref: '#/definitions/late-order-query-compensation-options'
 example:
   RestaurantId: '110230'
   OrderId: 'wiej234idf09i29jijgf4'
   Tenant: 'uk'
   CompensationOptions:
-  - Amount: 2
+  - Amount: 200
     IsRecommended: false
-  - Amount: 3
+  - Amount: 300
     IsRecommended: true
-  - Amount: 4
+  - Amount: 400
     IsRecommended: false

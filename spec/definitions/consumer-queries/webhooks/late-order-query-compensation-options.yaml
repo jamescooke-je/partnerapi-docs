@@ -5,8 +5,10 @@ items:
     Amount:
       type: number
       format: double
+      description: Monetary amount of compensation offered for this option 
     IsRecommended:
       type: boolean
+      description: Is this option the recommended compensation amount
   example:
     Amount: 5
     IsRecommended: true
