@@ -1,7 +1,7 @@
 type: object
 properties:
   restaurantId:
-    type: number
+    type: string
     description: Just Eat restaurant identifier
   orderId:
     type: string

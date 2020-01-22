@@ -6,7 +6,13 @@ properties:
       - Preparing
       - OnItsWay
       - Delivered
-    description: The updated later order query status
+    description: >-
+
+      - Preparing : Order still with restaurant
+
+      - OnItsWay : Order being delivered
+
+      - Delivered : Order with customer
   additionalDeliveryTimeToAddMinutes:
     type: integer
     description: The amount of time to add to the current delivery estimate in minutes
