@@ -19,6 +19,8 @@ properties:
           - Collection
       PhoneNumber:
         type: string
+      PhoneMaskingCode:
+        type: string
       CustomerDueDate:
         format: date-time
         type: string
@@ -118,6 +120,7 @@ example:
   Fulfilment:
     Method: Delivery
     PhoneNumber: '+441234567890'
+    PhoneMaskingCode: '9999999'
     CustomerDueDate: '2018-03-10T14:45:28Z'
     CustomerDueAsap: false
     Address:
