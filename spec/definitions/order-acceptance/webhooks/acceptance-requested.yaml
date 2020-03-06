@@ -19,8 +19,10 @@ properties:
           - Collection
       PhoneNumber:
         type: string
+        description: "Customer phone number (will be phone masking number if enabled)"
       PhoneMaskingCode:
         type: string
+        description: "Code to use when calling customer phone masking number about this order. null if phone masking not enabled"
       CustomerDueDate:
         format: date-time
         type: string
